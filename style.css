@@ -1,0 +1,117 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+
+}
+html,
+body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    position: relative;
+    overflow: hidden;
+
+}
+#page1{
+    height: 100vh;
+    width: 100vw;
+    background-color:black;
+    position: relative;
+}
+#page1>video{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+#page1>nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 30px;
+    height: 10vh;
+    width: 100vw;
+    position: absolute;
+
+}
+#page1>nav>img{
+    width: 9%;
+}
+#right-nav>button{
+    padding: 10px 20px;
+    border-radius:50px;
+    border: 1px solid white;
+    font-size: 15px;
+    font-family: Verdana,Tahoma, sans-serif;
+}
+.bottom-page1{
+    position: absolute;
+    bottom:5%;
+    left: 15%;
+    height: 40vh;
+    width: 50vw;
+
+}
+.bottom-page1>h1{
+    font-size: 5vw;
+    font-weight: 100;
+    line-height: 1;
+    color: white;
+    font-family: Verdana, Tahoma, sans-serif;
+
+}
+.bottom-page1-inner{
+    position: absolute;
+    bottom: 0%;
+    height: 35%;
+    width: 100%;
+}
+.bottom-page1-inner>{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.bottom-page1-inner>button{
+    padding: 10px 20px;
+    border: none;
+    border-radius: 50px;
+    background-color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 16px;
+}
+.bottom-page1-inner>h4{
+    font-size: 1.3vw;
+    font-weight: 100;
+    color: white;
+    padding: 10px;
+
+}
+#page2{
+    display: flex;
+    align-items: start;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+    position: relative;
+    padding:0vw 8vw;
+    color: white;
+}
+#page2>h3{
+    margin-bottom: 2vw;
+    font-weight: 100;
+
+}
+#page2>h1{
+    width: 80%;
+    font-size: 4vw;
+    line-height: 1.3;
+    font-weight: 100;
+    color: rgba(255, 255, 255, 0.351);
+
+}
