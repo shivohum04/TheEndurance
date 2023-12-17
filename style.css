@@ -97,7 +97,7 @@ body{
     flex-direction: column;
     height: 100vh;
     width: 100vw;
-    background-color: black;
+    background-color:#0738c1;
     position: relative;
     padding:0vw 8vw;
     color: white;
@@ -114,4 +114,41 @@ body{
     font-weight: 100;
     color: rgba(255, 255, 255, 0.351);
 
+}
+#page3{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-color: red;
+}
+#page3>canvas{
+    max-height: 100vh;
+    max-width: 100vw;
+    background-color: red;
+}
+#page3>canvas{
+    max-height: 100vh;
+    max-width: 100vw;
+    position: relative;
+
+}
+#page4{
+    display: flex;
+    align-items: start;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+    background-color:#0738c1;
+    position: relative;
+    padding:0vw 8vw;
+    color: white;
+}
+#page4>h1{
+    width: 80%;
+    font-size: 4vw;
+    line-height: 1.3;
+    font-weight: 100;
+    color: rgba(255, 255, 255, 0.351);
 }
